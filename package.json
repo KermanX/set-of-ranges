@@ -1,0 +1,22 @@
+{
+  "name": "set-of-ranges",
+  "version": "1.0.0",
+  "description": "A library of set whose members are defined as ranges.",
+  "keywords": [
+    "set",
+    "range"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "pretest": "tsc --build ./__tests__",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --roots \"./dist-test/\""
+  }
+}

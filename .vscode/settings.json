@@ -1,0 +1,3 @@
+{
+  "jest.jestCommandLine": "tsc --build ./__tests__ & node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --roots \"./dist-test/\""
+}
