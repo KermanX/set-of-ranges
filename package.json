@@ -10,6 +10,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "jest": "^28.1.0",
@@ -17,6 +18,7 @@
   },
   "scripts": {
     "pretest": "tsc --build ./__tests__",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --roots \"./dist-test/\""
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --roots \"./dist-test/\"",
+    "prepublish": "tsc --build"
   }
 }
