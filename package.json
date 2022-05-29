@@ -1,6 +1,6 @@
 {
   "name": "set-of-ranges",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A library of set whose members are defined as ranges.",
   "keywords": [
     "set",
@@ -11,6 +11,11 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "license": "MIT",
+  "repository": "https://github.com/UniCoderGroup/set-of-ranges",
+  "files":[
+    "./dist",
+    "./src"
+  ],
   "devDependencies": {
     "@types/jest": "^27.5.1",
     "jest": "^28.1.0",
